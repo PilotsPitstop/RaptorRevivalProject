@@ -1,6 +1,7 @@
 package net.PilotsPitstop.raptorrevivalproject.entity;
 
 import net.PilotsPitstop.raptorrevivalproject.RaptorRevivalProject;
+import net.PilotsPitstop.raptorrevivalproject.entity.custom.BuffZombieEntity;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
 import net.minecraft.util.ResourceLocation;
@@ -16,9 +17,9 @@ public class ModEntityTypes {
     public static DeferredRegister<EntityType<?>> ENTITY_TYPES
             = DeferredRegister.create(ForgeRegistries.ENTITIES, RaptorRevivalProject.MOD_ID);
 
-    public static final RegistryObject<EntityType<VRaptorEntity>> BUFF_ZOMBIE =
+    public static final RegistryObject<EntityType<BuffZombieEntity>> BUFF_ZOMBIE =
             ENTITY_TYPES.register("buff_zombie",
-                    () -> EntityType.Builder.create(VRaptorEntity::new,
+                    () -> EntityType.Builder.create(BuffZombieEntity::new,
                                     EntityClassification.MONSTER).size(1f, 3f)
                             .build(new ResourceLocation(RaptorRevivalProject.MOD_ID, "buff_zombie").toString()));
 

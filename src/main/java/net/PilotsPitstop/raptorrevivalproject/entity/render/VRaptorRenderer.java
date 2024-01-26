@@ -7,7 +7,7 @@ import net.minecraft.util.ResourceLocation;
 import net.PilotsPitstop.raptorrevivalproject.entity.custom.VRaptorEntity;
 import net.PilotsPitstop.raptorrevivalproject.entity.model.VRaptorModel;
 
-public class VRaptorRenderer extends MobRenderer<VRaptorEntity, VRaptorModel<VRaptorEntity>>
+public class VRaptorRenderer extends MobRenderer<VRaptorEntity, VRaptorModel<VRaptorRenderer>>
 {
     protected static final ResourceLocation TEXTURE =
             new ResourceLocation(RaptorRevivalProject.MOD_ID, "textures/entity/vraptor.png");

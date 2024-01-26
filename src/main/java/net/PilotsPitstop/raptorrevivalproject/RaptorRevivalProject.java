@@ -1,6 +1,7 @@
 package net.PilotsPitstop.raptorrevivalproject;
 
 import com.google.common.collect.ImmutableMap;
+import net.PilotsPitstop.raptorrevivalproject.entity.render.VRaptorRenderer;
 import net.minecraft.block.Block;
 import net.minecraft.block.WoodType;
 import net.minecraft.client.gui.ScreenManager;
@@ -54,7 +55,7 @@ import top.theillusivec4.curios.api.SlotTypePreset;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(RaptorRevivalProject.MOD_ID)
 public class RaptorRevivalProject {
-    public static final String MOD_ID = "tutorialmod";
+    public static final String MOD_ID = "raptorrevivalproject";
 
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
@@ -135,8 +136,8 @@ public class RaptorRevivalProject {
 
             RenderTypeLookup.setRenderLayer(ModBlocks.KAUPEN_ALTAR.get(), RenderType.getCutout());
         });
-
         RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.BUFF_ZOMBIE.get(), BuffZombieRenderer::new);
+        RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.VRAPTOR.get(), VRaptorRenderer::new);
         RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.PIGEON.get(), PigeonRenderer::new);
         RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.REDWOOD_BOAT.get(), ModBoatRenderer::new);
     }
