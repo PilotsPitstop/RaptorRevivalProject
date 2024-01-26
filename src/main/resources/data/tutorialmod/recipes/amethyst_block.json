@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "tutorialmod:amethyst"
+      "item": "raptorrevivalproject:amethyst"
     }
   },
   "result": {
-    "item": "tutorialmod:amethyst_block"
+    "item": "raptorrevivalproject:amethyst_block"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "tutorialmod:block/redwood_sapling"
+    "cross": "raptorrevivalproject:block/redwood_sapling"
   }
 }

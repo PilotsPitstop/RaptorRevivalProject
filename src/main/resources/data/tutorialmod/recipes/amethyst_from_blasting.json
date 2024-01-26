@@ -1,9 +1,9 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "tutorialmod:amethyst_ore"
+    "item": "raptorrevivalproject:amethyst_ore"
   },
-  "result": "tutorialmod:amethyst",
+  "result": "raptorrevivalproject:amethyst",
   "experience": 0.1,
   "cookingtime": 100
 }

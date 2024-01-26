@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "tutorialmod:block/amethyst_block" }
+    "": { "model": "raptorrevivalproject:block/amethyst_block" }
   }
 }

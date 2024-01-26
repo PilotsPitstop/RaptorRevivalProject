@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "tutorialmod:block/redwood_log",
-    "side": "tutorialmod:block/redwood_log"
+    "end": "raptorrevivalproject:block/redwood_log",
+    "side": "raptorrevivalproject:block/redwood_log"
   }
 }

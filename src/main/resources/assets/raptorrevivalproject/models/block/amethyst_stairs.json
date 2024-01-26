@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/stairs",
   "textures": {
-    "bottom": "tutorialmod:block/amethyst_block",
-    "top": "tutorialmod:block/amethyst_block",
-    "side": "tutorialmod:block/amethyst_block"
+    "bottom": "raptorrevivalproject:block/amethyst_block",
+    "top": "raptorrevivalproject:block/amethyst_block",
+    "side": "raptorrevivalproject:block/amethyst_block"
   }
 }

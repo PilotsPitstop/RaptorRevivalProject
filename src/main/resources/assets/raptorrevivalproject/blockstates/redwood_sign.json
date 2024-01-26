@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "tutorialmod:block/redwood_sign"
+      "model": "raptorrevivalproject:block/redwood_sign"
     }
   }
 }

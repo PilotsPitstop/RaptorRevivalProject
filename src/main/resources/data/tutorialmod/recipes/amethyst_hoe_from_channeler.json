@@ -1,15 +1,15 @@
 {
-  "type": "tutorialmod:lightning",
+  "type": "raptorrevivalproject:lightning",
   "weather": "clear",
   "ingredients": [
     {
-      "item": "tutorialmod:amethyst"
+      "item": "raptorrevivalproject:amethyst"
     },
     {
       "item": "minecraft:stick"
     }
   ],
   "output": {
-    "item": "tutorialmod:amethyst_hoe"
+    "item": "raptorrevivalproject:amethyst_hoe"
   }
 }

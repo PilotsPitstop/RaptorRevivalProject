@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tutorialmod:block/hyacinth"
+    "layer0": "raptorrevivalproject:block/hyacinth"
   }
 }

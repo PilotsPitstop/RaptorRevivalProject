@@ -1,15 +1,15 @@
 {
-  "type": "tutorialmod:lightning",
+  "type": "raptorrevivalproject:lightning",
   "weather": "thundering",
   "ingredients": [
     {
       "item": "minecraft:glass_pane"
     },
     {
-      "item": "tutorialmod:amethyst"
+      "item": "raptorrevivalproject:amethyst"
     }
   ],
   "output": {
-    "item": "tutorialmod:firestone"
+    "item": "raptorrevivalproject:firestone"
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "tutorialmod:block/hyacinth"
+      "model": "raptorrevivalproject:block/hyacinth"
     }
   }
 }

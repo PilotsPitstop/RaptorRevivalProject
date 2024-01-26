@@ -1,15 +1,15 @@
 {
   "small_explosion": {
     "category": "blocks",
-    "subtitle": "tutorialmod.small_explosion",
+    "subtitle": "raptorrevivalproject.small_explosion",
     "sounds": [
-      "tutorialmod:small_explosion"
+      "raptorrevivalproject:small_explosion"
     ]
   },
   "bar_brawl": {
     "sounds": [
       {
-        "name": "tutorialmod:bar_brawl",
+        "name": "raptorrevivalproject:bar_brawl",
         "stream": true
       }
     ]

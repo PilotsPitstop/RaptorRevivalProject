@@ -45,7 +45,7 @@ SOFTWARE.
 
 
 ModStructures, HouseStructure as well as the addDimensionalSpacing method in ModWorldEvents
-are slightly modified versions of https://github.com/TelepathicGrunt/StructureTutorialMod
+are slightly modified versions of https://github.com/TelepathicGrunt/Structureraptorrevivalproject
 that is distributed under the MIT-License:
 
 MIT License

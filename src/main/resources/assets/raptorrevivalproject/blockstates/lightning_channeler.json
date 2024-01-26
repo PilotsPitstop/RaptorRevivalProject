@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "tutorialmod:block/lightning_channeler" }
+        "": { "model": "raptorrevivalproject:block/lightning_channeler" }
     }
 }

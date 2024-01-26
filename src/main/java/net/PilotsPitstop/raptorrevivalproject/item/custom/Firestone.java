@@ -76,9 +76,9 @@ public class Firestone extends Item implements ICurioItem {
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
 
         if(Screen.hasShiftDown()) {
-            tooltip.add(new TranslationTextComponent("tooltip.tutorialmod.firestone_shift"));
+            tooltip.add(new TranslationTextComponent("tooltip.raptorrevivalproject.firestone_shift"));
         } else {
-            tooltip.add(new TranslationTextComponent("tooltip.tutorialmod.firestone"));
+            tooltip.add(new TranslationTextComponent("tooltip.raptorrevivalproject.firestone"));
         }
         super.addInformation(stack, worldIn, tooltip, flagIn);
     }

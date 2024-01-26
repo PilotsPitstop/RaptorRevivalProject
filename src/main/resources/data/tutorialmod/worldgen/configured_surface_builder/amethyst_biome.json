@@ -2,10 +2,10 @@
   "type": "minecraft:default",
   "config": {
     "top_material": {
-      "Name": "tutorialmod:amethyst_block"
+      "Name": "raptorrevivalproject:amethyst_block"
     },
     "under_material": {
-      "Name": "tutorialmod:amethyst_ore"
+      "Name": "raptorrevivalproject:amethyst_ore"
     },
     "underwater_material": {
       "Name": "minecraft:gravel"

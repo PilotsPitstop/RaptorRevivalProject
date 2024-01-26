@@ -1,6 +1,6 @@
 {
-    "parent": "tutorialmod:item/kaupenbow",
+    "parent": "raptorrevivalproject:item/kaupenbow",
     "textures": {
-        "layer0": "tutorialmod:item/kaupenbow_pulling_2"
+        "layer0": "raptorrevivalproject:item/kaupenbow_pulling_2"
     }
 }

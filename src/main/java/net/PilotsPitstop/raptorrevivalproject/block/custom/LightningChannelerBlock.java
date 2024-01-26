@@ -49,7 +49,7 @@ public class LightningChannelerBlock extends Block {
         return new INamedContainerProvider() {
             @Override
             public ITextComponent getDisplayName() {
-                return new TranslationTextComponent("screen.tutorialmod.lightning_channeler");
+                return new TranslationTextComponent("screen.raptorrevivalproject.lightning_channeler");
             }
 
             @Nullable

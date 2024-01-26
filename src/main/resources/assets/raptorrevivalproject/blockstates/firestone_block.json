@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "tutorialmod:block/firestone_block" }
+    "": { "model": "raptorrevivalproject:block/firestone_block" }
   }
 }

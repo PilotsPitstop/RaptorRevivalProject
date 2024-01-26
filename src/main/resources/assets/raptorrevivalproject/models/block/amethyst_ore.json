@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "tutorialmod:block/amethyst_ore"
+    "all": "raptorrevivalproject:block/amethyst_ore"
   }
 }

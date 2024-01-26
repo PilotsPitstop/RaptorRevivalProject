@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tutorialmod:item/redwood_sign"
+    "layer0": "raptorrevivalproject:item/redwood_sign"
   }
 }

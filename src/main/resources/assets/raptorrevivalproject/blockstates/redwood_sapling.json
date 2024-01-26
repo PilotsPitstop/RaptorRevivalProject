@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "tutorialmod:block/redwood_sapling"
+      "model": "raptorrevivalproject:block/redwood_sapling"
     }
   }
 }

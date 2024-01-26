@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "tutorialmod:block/redwood_leaves"
+      "model": "raptorrevivalproject:block/redwood_leaves"
     }
   }
 }

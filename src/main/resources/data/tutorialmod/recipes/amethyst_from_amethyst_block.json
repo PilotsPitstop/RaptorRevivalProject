@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "tutorialmod:amethyst_block"
+      "item": "raptorrevivalproject:amethyst_block"
     }
   ],
   "result": {
-    "item": "tutorialmod:amethyst",
+    "item": "raptorrevivalproject:amethyst",
     "count": 9
   }
 }

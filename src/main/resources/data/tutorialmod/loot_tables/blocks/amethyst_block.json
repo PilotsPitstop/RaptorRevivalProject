@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorialmod:amethyst_block"
+          "name": "raptorrevivalproject:amethyst_block"
         }
       ]
     }

@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "tutorialmod:block/brown",
-		"2": "tutorialmod:block/grey",
-		"particle": "tutorialmod:block/red"
+		"1": "raptorrevivalproject:block/brown",
+		"2": "raptorrevivalproject:block/grey",
+		"particle": "raptorrevivalproject:block/red"
 	},
 	"elements": [
 		{
