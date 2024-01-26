@@ -15,7 +15,7 @@ license = "All rights reserved"
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId = "tutorialmod" #mandatory
+modId = "raptorrevivalproject" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
@@ -36,7 +36,7 @@ authors = "Love, Cheese and small house plants" #optional
 description = '''
 This mod adds Dinosaurs and other needed stuff, have fun!
 '''
-[[dependencies.tutorialmod]]
+[[dependencies.raptorrevivalproject]]
 modId = "curios"
 mandatory = true
 versionRange = "[1.16.5-4.0.5.2,)"

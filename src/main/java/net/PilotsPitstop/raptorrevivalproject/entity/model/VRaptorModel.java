@@ -2,11 +2,12 @@ package net.PilotsPitstop.raptorrevivalproject.entity.model;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
+import net.PilotsPitstop.raptorrevivalproject.entity.custom.VRaptorEntity;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 
-public class VRaptorModel extends EntityModel<Entity> {
+public class VRaptorModel extends EntityModel<VRaptorEntity> {
     private final ModelRenderer leftLeg;
     private final ModelRenderer leftfoot;
     private final ModelRenderer cube_r1;
@@ -420,7 +421,7 @@ public class VRaptorModel extends EntityModel<Entity> {
     }
 
     @Override
-    public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch){
+    public void setRotationAngles(VRaptorEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch){
         //previously the render function, render code was moved to a method below
     }
 
