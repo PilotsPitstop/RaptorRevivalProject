@@ -59,7 +59,7 @@ public class RaptorRevivalProject {
 
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
-
+]
     public RaptorRevivalProject() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -79,6 +79,7 @@ public class RaptorRevivalProject {
         ModBiomesDatapack.register(eventBus);
         ModPaintings.register(eventBus);
 
+        GeckoLib.initialize();
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
         eventBus.addListener(this::enqueueIMC);
