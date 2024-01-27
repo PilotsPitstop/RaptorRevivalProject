@@ -1,5 +1,6 @@
 package net.PilotsPitstop.raptorrevivalproject.events;
 
+import net.PilotsPitstop.raptorrevivalproject.entity.custom.VRaptorEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.loot.GlobalLootModifierSerializer;
@@ -23,6 +24,7 @@ public class ModEventBusEvents {
     public static void addEntityAttributes(EntityAttributeCreationEvent event) {
         event.put(ModEntityTypes.BUFF_ZOMBIE.get(), BuffZombieEntity.setCustomAttributes().create());
         event.put(ModEntityTypes.PIGEON.get(), PigeonEntity.setCustomAttributes().create());
+        event.put(ModEntityTypes.VRAPTOR.get(), VRaptorEntity.setCustomAttributes().create());
     }
 
     @SubscribeEvent

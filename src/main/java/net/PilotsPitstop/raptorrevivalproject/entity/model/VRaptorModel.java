@@ -6,6 +6,7 @@ import net.PilotsPitstop.raptorrevivalproject.entity.custom.VRaptorEntity;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.entity.Entity;
+import net.minecraft.util.math.MathHelper;
 
 public class VRaptorModel extends EntityModel<VRaptorEntity> {
     private final ModelRenderer leftLeg;
@@ -421,8 +422,12 @@ public class VRaptorModel extends EntityModel<VRaptorEntity> {
     }
 
     @Override
-    public void setRotationAngles(VRaptorEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch){
-        //previously the render function, render code was moved to a method below
+    public void setRotationAngles(T entityIn, float limbSwing, float limbSwingAmount,
+                                  float ageInTicks, float netHeadYaw, float headPitch) {
+        this.head.rotateAngleX = headPitch * ((float)Math.PI / 180F);
+        this.head.rotateAngleY = netHeadYaw * ((float)Math.PI / 180F);
+        this.rightleg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
+        this.leftLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
     }
 
     @Override

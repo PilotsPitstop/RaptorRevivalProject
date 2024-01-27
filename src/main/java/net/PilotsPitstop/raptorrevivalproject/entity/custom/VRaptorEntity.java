@@ -33,7 +33,7 @@ public class VRaptorEntity extends ZombieEntity {
     public static AttributeModifierMap.MutableAttribute setCustomAttributes() {
         return MobEntity.func_233666_p_()
                 .createMutableAttribute(Attributes.MAX_HEALTH, 20.0D)
-                .createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.33D)
+                .createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.30D)
                 .createMutableAttribute(Attributes.ATTACK_DAMAGE, 13.0D)
                 .createMutableAttribute(Attributes.FOLLOW_RANGE, 50.0D)
                 .createMutableAttribute(Attributes.ZOMBIE_SPAWN_REINFORCEMENTS);
@@ -61,7 +61,7 @@ public class VRaptorEntity extends ZombieEntity {
     @Override
     protected SoundEvent getAmbientSound()
     {
-        return SoundEvents.ENTITY_HOGLIN_AMBIENT;
+        return SoundEvents.ENTITY_RAVAGER_ROAR;
     }
 
 
@@ -89,9 +89,7 @@ public class VRaptorEntity extends ZombieEntity {
             return false;
         } else {
             if (entityIn instanceof LivingEntity) {
-                ((LivingEntity)entityIn).addPotionEffect(new EffectInstance(Effects.SLOWNESS, 200,3));
-                ((LivingEntity)entityIn).addPotionEffect(new EffectInstance(Effects.WEAKNESS, 200));
-                ((LivingEntity)entityIn).addPotionEffect(new EffectInstance(Effects.NAUSEA, 200));
+
             }
             return true;
         }

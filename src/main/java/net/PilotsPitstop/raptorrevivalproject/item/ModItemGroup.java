@@ -5,7 +5,7 @@ import net.minecraft.item.ItemStack;
 
 public class ModItemGroup {
 
-    public static final ItemGroup TUTORIAL_GROUP = new ItemGroup("raptorrevivalprojectTab") {
+    public static final ItemGroup RAPTORREVIVALPROJECT_GROUP = new ItemGroup("RaptorRevivalProject_group") {
         @Override
         public ItemStack createIcon() {
             return new ItemStack(ModItems.AMETHYST.get());
