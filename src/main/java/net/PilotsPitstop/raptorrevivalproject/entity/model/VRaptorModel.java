@@ -2,13 +2,14 @@ package net.PilotsPitstop.raptorrevivalproject.entity.model;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
+import net.PilotsPitstop.raptorrevivalproject.entity.custom.PigeonEntity;
 import net.PilotsPitstop.raptorrevivalproject.entity.custom.VRaptorEntity;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.MathHelper;
 
-public class VRaptorModel extends EntityModel<VRaptorEntity> {
+public class VRaptorModel<T extends VRaptorEntity> extends EntityModel<T> {
     private final ModelRenderer leftLeg;
     private final ModelRenderer leftfoot;
     private final ModelRenderer cube_r1;
